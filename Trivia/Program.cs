@@ -2,8 +2,6 @@
 using System.Web;
 
 
-
-
 bool isPlaying = true;
 bool isEmpty;
 bool success;
@@ -15,7 +13,7 @@ int counterWrong = 0;
 Random random = new Random();
 
 
-string filePath = @"./questions.txt";
+string filePath = @"./questions.json";
 
 List<QuizItem> quizItems = new List<QuizItem>();
 
