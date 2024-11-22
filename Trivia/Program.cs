@@ -15,7 +15,7 @@ int counterWrong = 0;
 Random random = new Random();
 
 
-string filePath = @"C:\WIN24\VS_Code\cSharp\Trivia\questions.txt";
+string filePath = @"./questions.txt";
 
 List<QuizItem> quizItems = new List<QuizItem>();
 
